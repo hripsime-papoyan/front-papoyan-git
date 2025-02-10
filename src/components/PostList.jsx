@@ -7,13 +7,13 @@ function PostList({ posts }) {
 
     return (
         <div className="container">
-        <div className="post-list">
-            {posts.map((post) => (
-                <PostCard key={post.id} post={post} onClick={() => setSelectedPost(post)} />
-            ))}
+            <div className="post-list">
+                {posts.map((post) => (
+                    <PostCard key={post.id} post={post} onClick={() => setSelectedPost(post)} />
+                ))}
 
-            {selectedPost && <PostPopup post={selectedPost} onClose={() => setSelectedPost(null)} />}
-        </div>
+                {selectedPost && <PostPopup post={selectedPost} onClose={() => setSelectedPost(null)} />}
+            </div>
         </div>
     );
 }
