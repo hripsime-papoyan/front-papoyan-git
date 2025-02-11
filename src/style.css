@@ -6,11 +6,11 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: "Roboto", sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -216,11 +216,11 @@ a{
     background-size: contain;
 }
 
-.mobile-body .nav-item.dropdown > a:after{
-    top:39%;
+.mobile-body .nav-item.dropdown > a:after {
+    top: 39%;
 }
 
-.primary-menu .dropdown:after{
+.primary-menu .dropdown:after {
     right: 0;
 }
 
@@ -312,16 +312,16 @@ a{
 
 .post-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     margin-bottom: 46px;
     flex-wrap: wrap;
-    margin-top: 48px;
+    margin-top: 3rem;
+    gap: 48px 40px
 }
 
 .post-card {
     max-width: 360px;
-    margin-bottom: 46px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .post-card img {
@@ -331,7 +331,7 @@ a{
 }
 
 .post-card .category {
-    margin-top: 16px;
+    margin-top: 1rem;
     font-weight: 700;
     font-size: 0.81rem;
     line-height: 0.81rem;
@@ -342,7 +342,7 @@ a{
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.875rem;
-    margin-top: 16px;
+    margin-top: 1rem;
     color: #000000;
     display: -webkit-box;
     overflow: hidden;
@@ -365,7 +365,7 @@ a{
     font-size: 0.75rem;
     line-height: 0.75rem;
     display: flex;
-    gap: 13px
+    gap: 0.8125rem;
 }
 
 .post-attr span:nth-child(2):after,
@@ -494,8 +494,8 @@ a{
     cursor: pointer;
 }
 
-.popup-content p{
-    color:#929292;
+.popup-content p {
+    color: #929292;
     line-height: 1.5rem;
 }
 

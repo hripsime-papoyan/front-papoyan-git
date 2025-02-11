@@ -8,8 +8,8 @@ function PostList({ posts }) {
     return (
         <div className="container">
             <div className="post-list">
-                {posts.map((post) => (
-                    <PostCard key={post.id} post={post} onClick={() => setSelectedPost(post)} />
+                {posts.map((post, index) => (
+                    <PostCard key={index} post={post} onClick={() => setSelectedPost(post)} />
                 ))}
 
                 {selectedPost && <PostPopup post={selectedPost} onClose={() => setSelectedPost(null)} />}
