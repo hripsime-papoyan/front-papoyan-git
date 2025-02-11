@@ -72,7 +72,7 @@ function Header({ setSearchQuery }) {
             <nav className="primary-menu sticky">
                 <div className="container">
                     <div className="menu-wrapper">
-                        <div className="nav-item dropdown">
+                        <div className="nav-item">
                             <a href="#">Demos</a>
                         </div>
                         <div className="nav-item dropdown">
@@ -112,9 +112,9 @@ function Header({ setSearchQuery }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="nav-item dropdown"><a href="#">Features</a></div>
-                        <div className="nav-item dropdown"><a href="#">Categories</a></div>
-                        <div className="nav-item dropdown"><a href="#">Shop</a></div>
+                        <div className="nav-item"><a href="#">Features</a></div>
+                        <div className="nav-item"><a href="#">Categories</a></div>
+                        <div className="nav-item"><a href="#">Shop</a></div>
                         <div className="nav-item"><a href="#">Buy Now</a></div>
                     </div>
                 </div>

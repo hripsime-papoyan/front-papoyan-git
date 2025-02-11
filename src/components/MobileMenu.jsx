@@ -35,10 +35,10 @@ function MobileMenu({ isOpen, onClose }) {
                             </div>
                         </div>
                     </div>
-                    <div className="nav-item dropdown"><a href="#">Post</a></div>
-                    <div className="nav-item dropdown"><a href="#">Features</a></div>
-                    <div className="nav-item dropdown"><a href="#">Categories</a></div>
-                    <div className="nav-item dropdown"><a href="#">Shop</a></div>
+                    <div className="nav-item"><a href="#">Post</a></div>
+                    <div className="nav-item"><a href="#">Features</a></div>
+                    <div className="nav-item"><a href="#">Categories</a></div>
+                    <div className="nav-item"><a href="#">Shop</a></div>
                     <div className="nav-item"><a href="#">Buy Now</a></div>
                 </div>
             </div>
