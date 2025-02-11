@@ -78,7 +78,7 @@ function Header({ setSearchQuery }) {
                         <div className="nav-item dropdown">
                             <a href="#">Post</a>
                             <div className="sub-menu">
-                                <div className="sub-menu-item">
+                                <div className="sub-menu-item dropdown">
                                     <a href="#">Post Header</a>
                                     <div className="sub-menu">
                                         <div className="sub-menu-item">

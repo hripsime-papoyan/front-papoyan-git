@@ -12,6 +12,7 @@ body {
 
 a {
     text-decoration: none;
+    transition: all 0.3s ease-out;
 }
 
 .container {
@@ -254,7 +255,7 @@ a {
     border-bottom: 0;
 }
 
-.primary-menu .sub-menu-item:after {
+.primary-menu .dropdown.sub-menu-item:after {
     position: absolute;
     right: 0;
     top: 50%;
@@ -268,7 +269,7 @@ a {
     transform: rotate(273deg);
 }
 
-.primary-menu .nav-item.dropdown .sub-menu-item:after {
+.primary-menu .nav-item.dropdown .dropdown.sub-menu-item:after {
     top: 12px;
 }
 
@@ -277,6 +278,15 @@ a {
     padding-left: 10px;
 }
 
+.primary-menu  .nav-item.dropdown:hover:after{
+    transform: rotate(180deg);
+    transition: all 0.3s ease-out;
+}
+
+.mobile-body .nav-item.dropdown:hover > a:after{
+    transform: rotate(180deg);
+    transition: all 0.3s ease-out;
+}
 .primary-menu .sub-menu-item a {
     transition: all 0.3s ease-out;
     font-weight: 400;
